@@ -1,0 +1,24 @@
+* TODO Setup 16-bit segment registers and stack
+* TODO Print startup message
+* TODO Check presence of PCI, CPUID, MSRs
+* TODO Enable and confirm enabled A20 line
+* TODO Load GDTR
+* TODO Inform BIOS of target processor mode
+* TODO Get memory map from BIOS
+* TODO Locate kernel in filesystem
+* TODO Allocate memory to load kernel image
+* TODO Load kernel image into buffer
+* TODO Enable graphics mode
+* TODO Check kernel image ELF headers
+* TODO Enable long mode, if 64-bit
+* TODO Allocate and map memory for kernel segments
+* TODO Setup stack
+* TODO Setup COM serial output port
+* TODO Setup IDT
+* TODO Disable PIC
+* TODO Check presence of CPU features (NX, SMEP, x87, PCID, global pages, TCE, WP, MMX, SSE, SYSCALL), and enable them
+* TODO Assign a PAT to write combining
+* TODO Setup FS/GS base
+* TODO Load IDTR
+* TODO Enable APIC and setup using information in ACPI tables
+* TODO Setup GDT and TSS
